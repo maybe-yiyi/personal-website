@@ -20,6 +20,12 @@
 
         background-color: black;
         font-family: 'Geist Mono', monospace;
+        scrollbar-width: none;
+    }
+
+    :global(body::-webkit-scrollbar),
+    :global(html::-webkit-scrollbar) {
+        display: none;
     }
 
     #main {
