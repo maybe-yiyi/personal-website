@@ -21,8 +21,6 @@
     }
 
     #hello {
-        font-size: 0.75rem;
-        letter-spacing: 0.2rem;
         text-transform: uppercase;
         color: #01A4FF;
 
