@@ -11,7 +11,7 @@
 			clearInterval(interval);
 			done = true;
 		}
-	}, 100);
+	}, 50);
 </script>
 
 <section id="hero">
