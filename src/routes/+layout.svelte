@@ -26,7 +26,7 @@
 		margin: 0;
 		padding: 0;
 
-		background-color: black;
+		background-color: #000d14;
 		font-family: 'Geist Mono', monospace;
 		scrollbar-width: none;
 	}
