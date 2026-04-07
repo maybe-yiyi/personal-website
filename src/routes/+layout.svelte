@@ -19,6 +19,7 @@
 <style>
 	:global(:root) {
 		--color-blue: #01a4ff;
+		--color-white: #e3f5ff;
 	}
 
 	:global(body) {

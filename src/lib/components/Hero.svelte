@@ -17,7 +17,7 @@
 <section id="hero">
 	<div id="hero-content">
 		<p id="hello">Hello, I'm</p>
-		<h1 id="name">Yiyoung<br />Liu</h1>
+		<h1 id="name">Yiyoung<br /><span class="blue">Liu</span></h1>
 		<p id="info">
 			<span id="info-placeholder" aria-hidden="true">{infostring}</span>
 			<span id="info-text">{information}<span class="cursor" class:done>_</span></span>
@@ -43,7 +43,7 @@
 		text-transform: uppercase;
 		color: var(--color-blue);
 
-		margin-botton: 1rem;
+		margin-bottom: 1rem;
 	}
 
 	#info {
@@ -76,13 +76,22 @@
 		}
 	}
 
+	.blue {
+		color: var(--color-blue);
+	}
+
 	#name {
 		font-family: sans-serif;
 		font-size: 8rem;
 		font-weight: bold;
 		letter-spacing: -0.1rem;
+		color: var(--color-white);
 
 		margin-top: 0rem;
 		margin-bottom: 1rem;
+	}
+
+	#info {
+		color: var(--color-white);
 	}
 </style>
