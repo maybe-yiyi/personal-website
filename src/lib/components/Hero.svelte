@@ -41,7 +41,7 @@
 
     #hello {
         text-transform: uppercase;
-        color: #01A4FF;
+        color: var(--color-blue);
 
         margin-botton: 1rem;
     }

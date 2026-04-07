@@ -10,6 +10,6 @@
 
     #home {
         margin: 20px 30px;
-        color: #01A4FF;
+        color: var(--color-blue);
     }
 </style>
