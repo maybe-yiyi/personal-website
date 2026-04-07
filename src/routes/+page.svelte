@@ -1,18 +1,18 @@
 <script>
-    import { NavBar, Hero } from '$lib';
+	import { NavBar, Hero } from '$lib';
 </script>
 
 <div id="main">
-    <NavBar />
-    <Hero />
+	<NavBar />
+	<Hero />
 </div>
 
 <style>
-    #main {
-        display: flex;
-        flex-direction: column;
-        min-height: 100dvh;
+	#main {
+		display: flex;
+		flex-direction: column;
+		min-height: 100dvh;
 
-        color: white;
-    }
+		color: white;
+	}
 </style>
