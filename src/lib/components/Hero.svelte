@@ -1,8 +1,27 @@
+<script>
+    const infostring = "Information Systems @ CMU\nClass of 2029";
+    let information = $state('');
+
+    let done = $state(false);
+    let i = 0;
+    const interval = setInterval(() => {
+        information += infostring[i];
+        i++;
+        if (i >= infostring.length) {
+            clearInterval(interval);
+            done = true;
+        }
+    }, 100);
+</script>
+
 <section id="hero">
     <div id="hero-content">
         <p id="hello">Hello, I'm</p>
         <h1 id="name">Yiyoung<br />Liu</h1>
-        <p id="info">Information Systems @ CMU<br />Class of 2029</p>
+        <p id="info">
+            <span id="info-placeholder" aria-hidden="true">{infostring}</span>
+            <span id="info-text">{information}<span class="cursor" class:done>_</span></span>
+        </p>
     </div>
 </section>
 
@@ -25,6 +44,31 @@
         color: #01A4FF;
 
         margin-botton: 1rem;
+    }
+
+    #info {
+        position: relative;
+        white-space: pre-line;
+    }
+
+    #info-placeholder {
+        visibility: hidden;
+        user-select: none;
+    }
+
+    #info-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .cursor.done {
+        animation: blink 1s step-start infinite;
+    }
+
+    @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
     }
 
     #name {
