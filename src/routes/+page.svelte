@@ -6,7 +6,7 @@
 <style>
     :global(body) {
         background-color: black;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Geist Mono', monospace;
     }
 
     #main {
