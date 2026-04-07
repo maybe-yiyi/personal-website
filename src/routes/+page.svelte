@@ -23,6 +23,10 @@
     }
 
     #main {
+        display: flex;
+        flex-direction: column;
+        min-height: 100dvh;
+
         color: white;
     }
 </style>

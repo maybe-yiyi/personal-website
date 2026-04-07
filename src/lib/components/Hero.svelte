@@ -8,7 +8,7 @@
 
 <style>
     #hero {
-        min-height: 100vh;
+        flex: 1;
         display: flex;
         align-items: center;
         padding: 1.5rem 0.5rem;
